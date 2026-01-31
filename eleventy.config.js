@@ -20,7 +20,8 @@ export default function(eleventyConfig) {
     "zh-TW": { name: "Chinese (Traditional)", dir: "ltr", native: "繁體中文" },
     ar: { name: "Arabic", dir: "rtl", native: "العربية" },
     ru: { name: "Russian", dir: "ltr", native: "Русский" },
-    tr: { name: "Turkish", dir: "ltr", native: "Türkçe" }
+    tr: { name: "Turkish", dir: "ltr", native: "Türkçe" },
+    fr: { name: "French", dir: "ltr", native: "Français" },
   });
 
   // Dev server configuration: redirect root to /en/

@@ -36,6 +36,9 @@
 # Turkish
 /  /tr/  302  Language=tr
 
+# French
+/  /fr/  302  Language=fr
+
 # English (explicit match)
 /  /en/  302  Language=en
 
