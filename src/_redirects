@@ -39,6 +39,9 @@
 # French
 /  /fr/  302  Language=fr
 
+# Polish
+/  /pl/  302  Language=pl
+
 # English (explicit match)
 /  /en/  302  Language=en
 
