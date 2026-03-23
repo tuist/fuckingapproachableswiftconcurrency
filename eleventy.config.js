@@ -22,6 +22,7 @@ export default function(eleventyConfig) {
     ru: { name: "Russian", dir: "ltr", native: "Русский" },
     tr: { name: "Turkish", dir: "ltr", native: "Türkçe" },
     fr: { name: "French", dir: "ltr", native: "Français" },
+    pl: { name: "Polish", dir: "ltr", native: "Polski" },
   });
 
   // Dev server configuration: redirect root to /en/
