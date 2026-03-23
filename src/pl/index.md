@@ -53,7 +53,7 @@ let user = try await fetchUser(id: 123)
 
 Twój kod zatrzymuje się przy każdym `await` — nosi to nazwę **zawieszenia** (suspension). Gdy praca zostaje wykonana, kod zostaje wznowiony dokładnie tam, gdzie doszło do jego zatrzymania. Zawieszenie daje Swiftowi możliwość wykonywania innej pracy w czasie czekania.
 
-### Czekanie na *nie wszystkie*
+### Czekanie na *nie po kolei*
 
 A co, jeśli musisz pobrać kilka rzeczy? Możesz oczekiwać na wyniki ich działania po kolei:
 
@@ -495,7 +495,7 @@ class ViewModel {
 <div class="warning">
 <h4>Task i Task.detached to antywzorzec</h4>
 
-Taski tworzone ręcznie za pomocą `Task { ... }` lub `Task.detached { ... }` nie są zarządzane. Po ich utworzeniu nie możesz ich kontrolować. Nie możesz ich anulować, jeśli task, z którego je uruchomiłeś, zostanie anulowany. Nie masz dostępu do zwracanej przez nie wartości ani nie wiesz, czy zakończyły pracę, czy może napotkały błąd. To model typu „wyślij i zapomnij” (fire-and-forget) – uruchomienie takiego tasku jest jak wrzucenie butelki do morza z nadzieją, że dostarczy wiadomość do celu, bez możliwości ponownego zobaczenia tej butelki.
+Taski tworzone ręcznie za pomocą `Task { ... }` nie są zarządzane. Nie możesz ich anulować ani wiedzieć, kiedy zakończą pracę. Nie masz dostępu do zwracanej przez nie wartości ani informacji, czy napotkały błąd. W większości przypadków lepiej jest używać tasków zarządzanych przez `.task` lub `TaskGroup`, [jak wyjaśniono w sekcji „Częste błędy”](#managedtasks).
 
 [Task.detached powinien być ostatecznością](https://forums.swift.org/t/revisiting-when-to-use-task-detached/57929). Odłączone taski nie dziedziczą priorytetu, wartości task-local ani kontekstu aktora. Jeśli potrzebujesz cięższej pracy CPU poza głównym aktorem, oznacz funkcję jako `@concurrent`.
 </div>
