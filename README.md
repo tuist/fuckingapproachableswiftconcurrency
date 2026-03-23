@@ -1,6 +1,6 @@
 # Fucking Approachable Swift Concurrency
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A no-bullshit guide to understanding Swift concurrency. Learn async/await, actors, Sendable, and MainActor with simple mental models.
@@ -78,6 +78,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://www.stormacq.com"><img src="https://avatars.githubusercontent.com/u/401798?v=4?s=100" width="100px;" alt="Sébastien Stormacq"/><br /><sub><b>Sébastien Stormacq</b></sub></a><br /><a href="#content-sebsto" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/exproot"><img src="https://avatars.githubusercontent.com/u/72192187?v=4?s=100" width="100px;" alt="Ertan"/><br /><sub><b>Ertan</b></sub></a><br /><a href="https://github.com/tuist/fuckingapproachableswiftconcurrency/commits?author=exproot" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://vikram.kriplaney.com"><img src="https://avatars.githubusercontent.com/u/55100?v=4?s=100" width="100px;" alt="Vikram Kriplaney"/><br /><sub><b>Vikram Kriplaney</b></sub></a><br /><a href="#content-markiv" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/krzyszt0xF"><img src="https://avatars.githubusercontent.com/u/10384246?v=4?s=100" width="100px;" alt="Krzysztof"/><br /><sub><b>Krzysztof</b></sub></a><br /><a href="https://github.com/tuist/fuckingapproachableswiftconcurrency/commits?author=krzyszt0xF" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
