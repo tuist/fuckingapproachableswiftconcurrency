@@ -22,6 +22,7 @@
 /
 ├── src/
 │   ├── en/index.md          # English content
+│   ├── uk/index.md          # Ukrainian translation
 │   ├── ko/index.md          # Korean translation
 │   ├── ja/index.md          # Japanese translation
 │   ├── zh-CN/index.md       # Simplified Chinese translation
@@ -61,7 +62,7 @@ Each language version (e.g., `src/en/index.md`) contains:
    - `layout`: base.njk
    - `title`: Page title in the language
    - `description`: SEO description
-   - `lang`: Language code (en, ko, ja, zh-CN, zh-TW, ar)
+   - `lang`: Language code (en, uk, ko, ja, zh-CN, zh-TW, ar)
    - `dir`: Text direction (ltr or rtl)
    - `nav`: Navigation labels
    - `footer`: Footer text
