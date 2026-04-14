@@ -4,6 +4,9 @@
 # Spanish
 /  /es/  302  Language=es
 
+# Ukrainian
+/  /uk/  302  Language=uk
+
 # Portuguese (Brazil) - matches pt-BR and generic pt
 /  /pt-BR/  302  Language=pt-BR
 /  /pt-BR/  302  Language=pt

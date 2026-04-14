@@ -12,6 +12,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addGlobalData("languages", {
     en: { name: "English", dir: "ltr", native: "English" },
     es: { name: "Spanish", dir: "ltr", native: "Español" },
+    uk: { name: "Ukrainian", dir: "ltr", native: "Українська" },
     "pt-BR": { name: "Portuguese (Brazil)", dir: "ltr", native: "Português (Brasil)" },
     "pt-PT": { name: "Portuguese (Portugal)", dir: "ltr", native: "Português (Portugal)" },
     ko: { name: "Korean", dir: "ltr", native: "한국어" },
