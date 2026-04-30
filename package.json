@@ -16,7 +16,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.0",
+  "packageManager": "pnpm@10.33.2",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
